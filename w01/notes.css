@@ -1,0 +1,36 @@
+/* This is a little bit like a normalize style sheet  */
+@import url(https://fonts.googleapis.com/css?family=Lora);
+* {
+  box-sizing: border-box;
+  /* 
+  total width = content width + padding + border
+  width: 100% sets content width to 100%
+  the rule above makes it the opposite, so that total width is set with "width: 100%" 
+*/
+}
+
+img {
+  max-width: 100%;
+  /* the biggest the image can be is the size available, auto shrinks to fit */
+}
+
+html {
+  height: 100%;
+  /* percentage is always based on the parent, this gives the html a big span of the whole browser window */
+  font-size: 1.2em;
+}
+
+body {
+  background: #faebd7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/*  */
+/*  */
+/* Media Quereies */
+@media screen and (min-width: 700px) {
+}
