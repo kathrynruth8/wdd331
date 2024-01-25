@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "build": "node-sass public/styles.scss public/styles.css"
+  }
+}
